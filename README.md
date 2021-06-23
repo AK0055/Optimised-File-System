@@ -1,7 +1,5 @@
 # Optimised-File-System
-Through this project we have implemented the basic functions of the file system and we have optimized the existing file system by adding 
-features such as reducing seek time for next free block using priority queue with linked list for dynamic allocation and also reducing memory 
-fragmentation. Using 128 bytes block size for the 20 MB application successfully optimizes over the existing file system.
+This project implements the basic functions of the file system and optimizes the existing file system by adding features such as reducing seek time for next free block using priority queue with linked list for dynamic allocation and also reducing memory fragmentation. Using 128 bytes block size for the 20 MB application successfully optimizes over the existing file system.
 ## Methodology
 Since we had come across one method of handling and improving the disk performance and free space management and have noticed the 
 pros and cons of the restructuring method, we wanted to try a different technique to address the same issue of disk space and free memory 
